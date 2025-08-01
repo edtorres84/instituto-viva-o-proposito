@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instituto Viva o Propósito</title>
+  <style>
+    :root {
+      --azul-escuro: #0b1f3a;
+      --dourado: #d4af37;
+      --branco: #ffffff;
+      --cinza-claro: #f5f5f5;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--cinza-claro);
+      color: var(--azul-escuro);
+    }
+
+    header {
+      background-color: var(--azul-escuro);
+      color: var(--branco);
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header nav a {
+      color: var(--branco);
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-color: var(--azul-escuro);
+      color: var(--branco);
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.5em;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin: 20px 0;
+    }
+
+    .btn {
+      background-color: var(--dourado);
+      color: var(--azul-escuro);
+      padding: 15px 25px;
+      margin: 10px;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .cursos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .curso-card {
+      background-color: var(--branco);
+      border: 1px solid #ccc;
+      padding: 20px;
+      width: 280px;
+      text-align: center;
+      border-radius: 10px;
+    }
+
+    .depoimentos blockquote {
+      font-style: italic;
+      margin: 20px 0;
+    }
+
+    footer {
+      background-color: var(--azul-escuro);
+      color: var(--branco);
+      text-align: center;
+      padding: 40px 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Instituto Viva o Propósito</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#cursos">Cursos</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Descubra seu propósito e viva com direção espiritual</h1>
+    <p>Cursos e formações com base bíblica para sua transformação espiritual e emocional.</p>
+    <button class="btn">Quero Viver Meu Propósito</button>
+    <button class="btn">Conheça Nossos Cursos</button>
+  </div>
+
+  <section id="sobre">
+    <h2>Quem Somos</h2>
+    <p>O Instituto Viva o Propósito é uma iniciativa cristã que capacita homens e mulheres a viverem plenamente sua identidade em Cristo, por meio de treinamentos com base bíblica, inteligência emocional e discipulado.</p>
+    <p><strong>Missão:</strong> Ajudar cristãos a viverem com clareza, fé e propósito.</p>
+    <p><strong>Visão:</strong> Ser uma referência em formação espiritual prática e transformadora.</p>
+  </section>
+
+  <section id="cursos">
+    <h2>Formações com Base Bíblica</h2>
+    <div class="cursos">
+      <div class="curso-card">
+        <h3>Autoridade Espiritual e Emocional</h3>
+      </div>
+      <div class="curso-card">
+        <h3>7 Chaves Bíblicas para Renovar a Mente</h3>
+      </div>
+      <div class="curso-card">
+        <h3>Identidade em Cristo</h3>
+      </div>
+      <div class="curso-card">
+        <h3>Devocional 21 Dias de Propósito</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="depoimentos" class="depoimentos">
+    <h2>Transformações Reais</h2>
+    <blockquote>"Hoje entendo quem sou em Cristo. Esse curso mudou minha vida." – Ana P.</blockquote>
+    <blockquote>"Foi o início da jornada mais poderosa que já vivi com Deus." – Marcos L.</blockquote>
+  </section>
+
+  <section id="cta" style="background-color: var(--dourado); text-align: center; color: var(--azul-escuro);">
+    <h2>Você não foi criado para sobreviver, mas para viver com propósito.</h2>
+    <button class="btn">Comece sua jornada agora</button>
+  </section>
+
+  <footer id="contato">
+    <p><strong>Instituto Viva o Propósito</strong></p>
+    <p>Contato: (11) 99999-9999 | contato@vivao.proposito</p>
+    <p>Instagram: @vivao.proposito</p>
+    <p>&copy; 2025 Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
